@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Formulario</title>
+</head>
+<body>
+<div id="uno">
+    <form  method="POST" id="register" onSubmit="myfunction()">
+        
+            <input type="text" placeholder="Nombre*"name="Nombre" id="Nombre"required>
+            <input type="text" placeholder="Apellidos*"name="Apellidos" id="Apellidos"required>
+            <input type="number" placeholder="Teléfono" name="Telefono" id="Telefono"required>
+            <input type="email" placeholder="E-mail*"name="Correo" id="Correo"required><br>
+            <label id="uno">Déjanos tus preguntas</label>
+            <textarea name="message"></textarea>
+            
+            <input type="checkbox" value="terminos" required>
+            <label>He leído y acepto <strong>la política de privacidad</strong></label>
+            <input type="submit" value="Enviar">
+        
+        </form>
+        
+        <script>
+               
+            function myfunction()
+            {
+                alert("Enviado con éxito");
+            }
+
+        </script>
+</div>
+    
+    <div id="dos">
+         <h3>¿TIENES DUDAS?</h3>
+         <h1>Contacta con <br>nosotros</h1>
+         <p> Puedes contactar con nosotros a través del siguiente <br>
+            formulario. Un agente se pondrá en contacto contigo para<br>
+            explicarte todo lo que necesitas saber y resolver todas dudas<br>
+            de manera personalizada
+         </p>
+    </div>
+</body>
+</html>
